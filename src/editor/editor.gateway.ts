@@ -25,7 +25,7 @@ export class EditorGateway {
 
   handleConnection(client: Socket) {
     console.log('User connected:', client.id);
-    console.log('client data:', client);
+    // console.log('client data:', client);
   }
 
   @SubscribeMessage('send-changes')
